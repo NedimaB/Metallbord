@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metallbord Unikatni Stolovi | Prilagođeni Namještaj</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Sekcija -->
+    <header>
+        <div class="logo">
+                <img src="C:\Users\Toshiba -01\Documents\Alen\jpg\logo.png" alt="Metallbord Unikatni Stolovi Logo">
+        </div>
+        <nav>
+            <a href="#home">Početna</a>
+            <a href="#products">Proizvodi</a>
+            <a href="#contact">Kontakt</a>
+            <a href="https://www.facebook.com/profile.php?id=61552316716174" target="_blank" class="facebook-btn">
+                Posjetite nas na Facebook-u
+            </a>
+            
+        </nav>
+    </header>
+   
+        
+
+    <!-- Početna Sekcija -->
+    <section id="home" class="hero">
+        <h2>Proizvodnja i prodaja unikatnih stolova u kombinaciji metala i drveta</h2>
+        <p>Otkrijte savršen stol za vaš prostor, napravljen sa pažnjom i kvalitetnim materijalima.</p>
+        <button onclick="window.location.href='#products'">Poručite Sada</button>
+    </section>
+
+    <!-- Sekcija Proizvoda -->
+    <section id="products" class="products">
+
+        
+        <h2>Naši Proizvodi</h2>
+        <div class="product-card" onmouseover="showDetails('product1')" onmouseout="hideDetails('product1')">
+                <a href="proizvod1.html">
+            <img src="C:\Users\Toshiba -01\Documents\Alen\jpg\Table1.jpg" alt="Moderni Vizuelni Stol" width="300" height="300">
+        </a>
+            <h3>Moderni Stol</h3>
+            <p id="product1" class="product-details">Moderan ručno izrađen stol sa metalnim nogama i jedinstvenim vizualnim efektom.</p>
+            <label for="size1">Veličina:</label>
+                <select id="size1" name="size">
+                    <option value="small">100x60 cm</option>
+                    <option value="medium">150x80 cm</option>
+                    <option value="large">200x100 cm</option>
+                </select>
+            
+                <p class="price" id="price1">Cijena: 500 KM</p>
+            <button onclick="sendEmail('Moderni Stol', '100x60 cm', 500)">Poručite Sada</button>
+
+        
+        </div>
+
+
+        <div class="product-card" onmouseover="showDetails('product2')" onmouseout="hideDetails('product2')">
+                <a href="proizvod2.html">
+            <img src="C:\Users\Toshiba -01\Documents\Alen\jpg\Table2.jpg" alt="Moderni Stol" width="300" height="300">
+        </a>
+            <h3>Moderni Minimalistički Stol</h3>
+            <p id="product2" class="product-details">Elegantan, moderan dizajn savršen za savremene enterijere.</p>
+            <label for="size2">Veličina:</label>
+                <select id="size2" name="size">
+                    <option value="small">100x60 cm</option>
+                    <option value="medium">150x80 cm</option>
+                    <option value="large">200x100 cm</option>
+                </select>
+            
+                <p class="price" id="price2">Cijena: 600 KM</p>
+                <button onclick="sendEmail('Moderni Stol', '100x60 cm', 600)">Poručite Sada</button>
+
+        </div>
+       
+        <div class="product-card" onmouseover="showDetails('product3')" onmouseout="hideDetails('product3')">
+            <a href="proizvod3.html">   
+            <img src="C:\Users\Toshiba -01\Documents\Alen\jpg\polica.jpg" alt="Moderni Vizuelni Stol" width="300" height="300">
+        </a>
+            <h3>Polica</h3>
+                <p id="product3" class="product-details">Moderna polica sa kukama.</p>
+                <label for="size3">Veličina:</label>
+                    <select id="size3" name="size">
+                        <option value="small">80x55 cm</option>
+                        <option value="medium">100x85 cm</option>
+                    </select>
+                
+                    <p class="price" id="price3">Cijena: 95 KM</p>
+                    <button onclick="sendEmail('Moderni Stol', '80x55 cm', 95)">Poručite Sada</button>
+            </div>
+            
+
+            <div class="product-card" onmouseover="showDetails('product4')" onmouseout="hideDetails('product4')">
+                <a href="proizvod4.html">    
+                <img src="C:\Users\Toshiba -01\Documents\Alen\jpg\Table3.jpg" alt="Moderni Stol" width="300" height="300">
+                </a>   
+                <h3>Moderni Minimalistički Stol</h3>
+                    <p id="product4" class="product-details">Elegantan, moderan dizajn savršen za savremene enterijere.</p>
+                    <label for="size4">Veličina:</label>
+                        <select id="size4" name="size">
+                            <option value="small">100x60 cm</option>
+                            <option value="medium">150x80 cm</option>
+                            <option value="large">200x100 cm</option>
+                        </select>
+                    
+                        <p class="price" id="price4">Cijena: 600 KM</p>
+                        <button onclick="sendEmail('Moderni Stol', '100x60 cm', 600)">Poručite Sada</button>
+                </div>
+
+
+            <div class="product-card" onmouseover="showDetails('product5')" onmouseout="hideDetails('product5')">
+                <a href="proizvod5.html">        
+                <img src="C:\Users\Toshiba -01\Documents\Alen\jpg\Table4.jpg" alt="Moderni Stol" width="300" height="300">
+                </a>        
+                <h3>Moderni Minimalistički Stol</h3>
+                    <p id="product5" class="product-details">Elegantan, moderan dizajn savršen za savremene enterijere.</p>
+                    <label for="size5">Veličina:</label>
+                        <select id="size5" name="size">
+                            <option value="small">100x60 cm</option>
+                            <option value="medium">150x80 cm</option>
+                            <option value="large">200x100 cm</option>
+                        </select>
+                        
+                    <p class="price" id="price5">Cijena: 600 KM</p>
+                    <button onclick="sendEmail('Moderni Stol', '100x60 cm', 600)">Poručite Sada</button>
+                    </div>
+
+
+            <div class="product-card" onmouseover="showDetails('product6')" onmouseout="hideDetails('product6')">
+                <a href="proizvod6.html">            
+                <img src="C:\Users\Toshiba -01\Documents\Alen\jpg\Table5.jpg" alt="Moderni Stol" width="300" height="300">
+                </a>            
+                <h3>Moderni Minimalistički Stol</h3>
+                            <p id="product6" class="product-details">Elegantan, moderan dizajn savršen za savremene enterijere.</p>
+                            <label for="size6">Veličina:</label>
+                                <select id="size6" name="size">
+                                    <option value="small">100x60 cm</option>
+                                    <option value="medium">150x80 cm</option>
+                                    <option value="large">200x100 cm</option>
+                                </select>
+                            
+                                <p class="price" id="price6">Cijena: 600 KM</p>
+                                <button onclick="sendEmail('Moderni Stol', '100x60 cm', 600)">Poručite Sada</button>
+                        </div>
+    </section>
+
+    <!-- Kontakt Sekcija -->
+    <section id="contact" class="contact">
+        <h2>Kontaktirajte Nas</h2>
+        <form action="send_email.php" method="post">
+            <input type="text" id="name" name="name" placeholder="Vaše Ime" required>
+            <input type="email" id="email" name="email" placeholder="Vaš Email" required>
+            <textarea id="message" name="message" placeholder="Vaša Poruka" required></textarea>
+            <button type="submit">Pošaljite</button>
+        </form>
+      
+            
+    </section>
+
+    <!-- Footer Sekcija -->
+    <footer>
+        <p>&copy; 2025 Metallbord Unikatni Stolovi. Sva prava zadržana.</p>
+        <a href="https://www.facebook.com/profile.php?id=61552316716174" target="_blank" class="facebook-btn">
+            Posjetite nas na Facebook-u
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

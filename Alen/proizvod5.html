@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moderni Stol - Metallbord Unikatni Stolovi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> <!-- Povezivanje sa JavaScript fajlom -->
+</head>
+<body>
+    <!-- Header Sekcija -->
+    <header>
+            <div class="logo">
+                <img src="C:\Users\Toshiba -01\Documents\Alen\jpg\logo.png" alt="Metallbord Unikatni Stolovi Logo">
+            </div>
+            <nav>
+                <a href="index.html#home">Početna</a> <!-- Vraća na početnu stranicu -->
+                <a href="index.html#products">Proizvodi</a> <!-- Vraća na sekciju proizvoda na početnoj stranici -->
+                <a href="index.html#contact">Kontakt</a> <!-- Vraća na kontakt sekciju na početnoj stranici -->
+                <a href="https://www.facebook.com/profile.php?id=61552316716174" target="_blank" class="facebook-btn">Posjetite nas na Facebook-u</a>
+            </nav>
+        </header>
+        
+
+    <!-- Stranica Proizvoda -->
+    <section class="product-detail">
+        <h1>Moderni Stol</h1>
+        <div class="product-detail-content">
+            <img src="C:\Users\Toshiba -01\Documents\Alen\jpg\Table4.jpg" alt="Moderni Stol" class="product-image" width="700" height="700">
+            <div class="product-info">
+                <h3>Opis:</h3>
+                <p>Moderan ručno izrađen stol sa metalnim nogama i jedinstvenim vizualnim efektom. Idealan za savremene interijere.</p>
+                
+                <h3>Dimenzije:</h3>
+                <select id="size-select" onchange="updatePrice()">
+                    <option value="100x60" data-price="600">100x60 cm</option>
+                    <option value="150x80" data-price="850">150x80 cm</option>
+                    <option value="200x100" data-price="1200">200x100 cm</option>
+                </select>
+
+                <h3>Cijena:</h3>
+                <p class="price" id="product-price">600 KM</p>
+
+                <button onclick="sendEmail('Moderni Stol', '100x60 cm', 600)">Poručite Sada</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Sekcija -->
+    <footer>
+        <p>&copy; 2025 Metallbord Unikatni Stolovi. Sva prava zadržana.</p>
+        <a href="https://www.facebook.com/profile.php?id=61552316716174" target="_blank" class="facebook-btn">Posjetite nas na Facebook-u</a>
+    </footer>
+</body>
+</html>
